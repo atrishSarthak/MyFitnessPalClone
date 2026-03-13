@@ -17,7 +17,7 @@ const FoodListItem = ({ item }) => {
                 <Text style={{ fontSize: 16, fontWeight: 'bold' }}>{item.label}</Text>
                 <Text style={{ fontSize: 14, color: 'dimgray' }}>{item.cal} cal, {item.brand}</Text>
             </View>
-            <Feather name="plus-circle" size={24} color="royalblue" />
+            <Feather name="plus-circle" size={24} color="blue" />
         </View>
     );
 };
